@@ -1,0 +1,16 @@
+lang: zh-CN
+home:
+  welcome: "\U0001F525 <a href=\"https://translate.google.com/?sl=gl&tl=en&text=Lume%20e%20Xeo&op=translate\">XHJ's Blog</a> \U0001F9CA"
+  intro: "Welcome to [**XHJ**](https://github.com/TicklishJill/TicklishJill), a *thought*  of [**……**]"
+
+copyright: #"[Xeo](https://github.com/famebot/xeo) &copy; 2022-2025 [Óscar&nbsp;Otero](https://oscarotero.com/) &amp; [Ricky&nbsp;de&nbsp;Laveaga](https://rdela.com/)"
+
+menu_links: []
+metas:
+  site: XHJ
+  description: XHJ's Blog
+  title: =title
+  image: =image
+  # twitter: '@famebot'
+  lang: ZH-CN
+  generator: false

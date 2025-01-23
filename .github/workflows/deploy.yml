@@ -30,6 +30,6 @@ jobs:
         with:
           project: xhjblog
           import-map: "./deno.json"
-          entrypoint: serve.ts
+          entrypoint: "./serve.ts"
         env:
           DENO_DEPLOY_TOKEN: ${{ secrets.DENO_DEPLOY_TOKEN }}

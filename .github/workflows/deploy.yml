@@ -24,10 +24,6 @@ jobs:
 
       - name: Build site
         run: deno task build
-      - name: Debug project and token
-        run: |
-          echo "Project: xhjblog"
-          echo "Token: ${{ secrets.DENO_DEPLOY_TOKEN }}"
 
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
@@ -35,3 +31,4 @@ jobs:
           project: xhjblog
           import-map: "./deno.json"
           entrypoint: serve.ts
+          token: ${{ secrets.DENO_DEPLOY_TOKEN }}
